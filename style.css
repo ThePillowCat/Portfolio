@@ -5,7 +5,7 @@ html, body {
   
   body {
       background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-      background-size: 400% 400%;
+      background-size: 200% 1000%;
       animation: gradient 10s ease infinite;
   }
   
@@ -26,12 +26,11 @@ html, body {
     background-color: rgba(255, 255, 255, 0.5);
     border-radius: 5px;
     padding: 10px;
+    margin-top: 2%;
 }
 
 .title {
     width: 90%;
-    margin-top: 2%;
-    margin-bottom: 1%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -43,29 +42,14 @@ html, body {
 }
 
 .blurb-1 {
-    margin-top: 1%;
     width: 90%;
 }
-
-.slide {
-    max-width: 700px;
-}
-
-#achievenemts-blurb {
-    width: 90%;
-}
-
 
 #section-title {
     font-size: 2.5vw;
 }
 
-.split-2 {
-    width: 90%;
-    margin-top: 1%;
-}
-
-.carousel-item img {
+.carousel-inner {
     width: 100% !important;
     height: 30vw !important;
 }
@@ -115,9 +99,4 @@ i {
 #projects-text {
     font-size: 3vw;
     text-align: center;
-}
-
-.blurb-2 {
-    width: 49.5%;
-    margin-top: 1%;
 }
