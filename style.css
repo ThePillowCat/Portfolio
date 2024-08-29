@@ -55,6 +55,13 @@ html, body {
     object-fit: fill;
 }
 
+.carousel-caption {
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-bottom: 7% !important;
+}
+
 #about-me-text {
     font-size: 2vw;
     line-height: 1.4;
@@ -100,4 +107,8 @@ i {
 #projects-text {
     font-size: 3vw;
     text-align: center;
+}
+
+.carousel-caption {
+    
 }
