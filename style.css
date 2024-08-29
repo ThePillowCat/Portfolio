@@ -62,10 +62,6 @@ html, body {
 
 .split-2 {
     width: 90%;
-    display: grid;
-    grid-template-rows: 1fr;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 2%;
     margin-top: 1%;
 }
 
@@ -119,4 +115,9 @@ i {
 #projects-text {
     font-size: 3vw;
     text-align: center;
+}
+
+.blurb-2 {
+    width: 49.5%;
+    margin-top: 1%;
 }
