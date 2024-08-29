@@ -52,6 +52,7 @@ html, body {
 .carousel-inner {
     width: 100% !important;
     height: 30vw !important;
+    object-fit: fill;
 }
 
 #about-me-text {
