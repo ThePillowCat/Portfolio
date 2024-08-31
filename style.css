@@ -52,7 +52,6 @@ html, body {
 .carousel-inner {
     width: 100% !important;
     height: 30vw !important;
-    object-fit: fill;
 }
 
 .carousel-caption {
@@ -109,6 +108,34 @@ i {
     text-align: center;
 }
 
-.carousel-caption {
-    
+.grid-container1 {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1%;
+}
+
+.grid-container1 img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.grid-container1 p {
+    margin-top: 1vw;
+    font-size: 1.5vw;
+} 
+
+.grid-container1 a {
+    font-size: 1vw;
+}
+
+.socials-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evently;
+}
+
+.socials-container svg {
+    display: inline-block;
 }
