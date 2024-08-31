@@ -14,6 +14,10 @@ setTimeout(() => {
     display(1)
 }, 500);
 
+$('#github-icon').on('click', function() {
+    window.open('https://github.com/ThePillowCat/', '_blank');
+});
+
 function display(index) {
     if (index < 22) {
         $(`#i${index}`).css("display", "inline-block").animate({opacity: 1}, animationFadeIn);
