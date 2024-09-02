@@ -118,6 +118,13 @@ i {
     gap: 1%;
 }
 
+.grid-container2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 1%;
+}
+
 .grid-container1 img {
     width: 100%;
     height: auto;
@@ -170,6 +177,12 @@ i {
         display: grid;
         grid-template-rows: 1fr 1fr 1fr 1fr;
         grid-template-columns: 1fr;
+        gap: 0.5%;
+    }
+    .grid-container2 {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
         gap: 0.5%;
     }
 }
